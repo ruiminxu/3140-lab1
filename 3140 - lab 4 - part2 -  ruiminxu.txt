@@ -1,0 +1,129 @@
+1. curl
+
+Location: /usr/bin/curl /usr/share/man/man1/curl.l.gz
+
+Version: 7.29.0
+
+2. awk
+
+Location: /user/bin/awk /usr/libexec/awk /usr/share/awk /usr/share/man/manlp/awk.lp.gz
+	  /usr/share/man/man1/awk.l.gz
+
+Version: 4.0.2
+
+3. guile
+
+Location: /usr/bin/guile /usr/lib64/guile /usr/share/guile /usr/share/man/manl/guile.l.gz
+
+Version: 2.0.9
+
+4.ffmpeg
+
+Location: /usr/bin/ffmpg /usr/share/ffmpeg /usr/share/man/manl/ffmpg.l.gz
+
+Version: invalid
+
+5. emacs
+
+Location: /usr/bin/emacs /usr/libexec/emacs /usr/share/emacs /usr/share/man/manl/emacs.l.gz
+
+Version: 24.3.1
+
+6. gzip
+
+Location: /usr/bin/gzip /usr/share/man/manl/gzip.l.gz
+
+Version: 1.5
+
+7. head
+
+Location: /usr/bin/head /usr/share/man/manlp/head.lp.gz /usr/share/man/manl/head.l.gz
+
+Version: 8.22
+
+8. convert
+
+Location: /usr/bin/convert /usr/share/man/manl/convert.l.gz
+
+Version: 6.9.10-68
+
+9. wget
+
+Location: /user/bin/wget /usr/share/man/manl/w.get.l.gz
+
+Version: 1.14
+
+10. java
+
+Location: /usr/bin/java /usr/lib/java /etc/java /usr/share/java /usr/share/man/manl/java.l.gz
+
+11. gimp
+
+Location: /usr/bin/gimp /usr/lib64/gimp /etc/gimp /usr/share/gimp /usr/share/man/manl/gimp.l.gz
+
+Version: 2.8.22
+
+12. vim
+
+Location: /usr/bin/vim /usr/share/vim /usr/share/man/manl/vim.l.gz
+
+Version: 7.4
+
+13. mysql
+
+Location: /usr/bin/mysql /usr/lib64/mysql /usr/share/mysql /usr/share/man/manl/mysql.l.gz
+
+Version: 15.1
+
+14. zip
+
+Location: /usr/bin/zip /usr/share/man/manl/zip.l.gz
+
+Version: 3.0
+
+15. tail
+
+Location: /usr/bin/tail /usr/share/man/manlp/tail.lp.gz /usr/share/man/manl/tail.l.gz
+
+Version: 8.22
+
+16. subversion
+
+Location: /etc/subversion
+
+17. git
+
+Location: /usr/bin/git /usr/share/man/manl/git.l.gz
+
+Version: 1.8.3.1
+
+18. inkscape
+
+Location: /usr/bin/inkscape /usr/lib/inkscape /usr/share/inkscape /usr/share/man/manl/inkscape.l.gz
+
+Version: 0.92.2
+
+19. nano
+
+Location: /usr/bin/nano /usr/share/nano /usr/share/man/manl/nano.l.gz
+
+Version: 2.3.1
+
+20. sqlite
+
+Location: invalid
+
+Version: invalid 
+
+21. make
+
+Location: /usr/bin/make /usr/share/man/manlp/make.lp.gz /usr/share/man/manl/make.l.gz
+
+Version: 3.82
+
+22. libreoffice
+
+Location: /usr/bin/libreoffice /usr/lib64/libreoffice /usr/share/libreoffice 
+          /usr/share/man/manl/libreoffice.l.gz
+
+Version: 5.3.6.1
