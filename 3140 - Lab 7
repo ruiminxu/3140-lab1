@@ -1,0 +1,31 @@
+"Calculate your final grade or GPA"
+
+This lab 7 is about to a code to calucate your final grade.
+The variables are currentGrade, dreamGrade, finalWeight, finalWeightDecmial, part1, part2, part3, and finalgrade.
+
+The input will be the currentGrade, dreamGrade, and finalWeight.
+The output will be finalGrade and all of the string display.
+
+Code for this final grade calcuator is below 
+
+(display "Welcome to your final grade calucator")
+(newline)
+(display "What is your current grade?")
+(newline)
+(define currentGrade (read))
+(display "What is the grade you want?")
+(newline)
+(define dreamtGrade (read))
+(display "What is your final exam weight?")
+(newline)
+(define finalWeight (read))
+(define finalWeightDecimal ( / finalWeight 100))
+
+ (define part1 ( - 1 finalWeightDecimal))
+ (define part2 (* part1 currentGrade))
+ (define part3 (- dreamtGrade part2))
+ (define finalGrade (/ part3 finalWeightDecimal))
+ (display "Your final grade is ")
+ (display finalGrade)
+
+ 
