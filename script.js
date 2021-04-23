@@ -1,13 +1,14 @@
 const inputField = document.querySelector("input");
 const digitDisplay = document.getElementById("numDisplay");
 const errorDisplay = document.getElementById("errorMessage");
-
-let count = 0;
+const resetButton = document.getElementById("reset");
 
 inputField.addEventListener("input", updateValue);
 
 function updateValue(e) {
-	if (count <= 10) {
+	console.log(inputField.value.length);
+
+	if (inputField.value.length != 11) {
 		if (isNaN(e.target.value)) {
 			errorDisplay.innerText = "enter a number";
 		} else {
@@ -21,12 +22,22 @@ function updateValue(e) {
 				e.target.value.slice(6),
 			].join("");
 
-			count++;
-
 			digitDisplay.innerText = digit;
 		}
 	} else {
 		errorDisplay.innerText = "You entered 10 digits already!";
 		inputField.disabled = true;
+		resetButton.hidden = false;
 	}
+}
+
+resetButton.addEventListener("click", reset);
+
+function reset(e) {
+	inputField.disabled = false;
+	count = 0;
+	digitDisplay.innerText = "";
+	errorDisplay.innerText = "";
+	resetButton.hidden = true;
+	inputField.value = "";
 }

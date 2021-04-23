@@ -1,0 +1,61 @@
+:root {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	margin: 0;
+	background-color: antiquewhite;
+}
+
+.container {
+	display: grid;
+
+	text-align: center;
+	justify-content: center;
+}
+
+.headerOne {
+	font-family: "Orelega One";
+}
+
+.phoneForm {
+	background-color: whitesmoke;
+	border-radius: 50px;
+	height: 450px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.Label {
+	font-size: 20px;
+	padding-bottom: 25px;
+	font-family: "Orelega One";
+}
+
+.inputBox {
+	width: 50%;
+	margin-left: 130px;
+	height: 25px;
+	border-radius: 10px;
+	border-color: white;
+}
+
+.inputBox:focus {
+	outline: none;
+}
+
+.numDisplay {
+	font-family: "Orelega One";
+}
+
+.errorMessage {
+	font-family: "Orelega One";
+}
+
+.reset {
+	width: 30%;
+	margin-left: 190px;
+}
